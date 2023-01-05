@@ -14,7 +14,7 @@ public class MaxValue {
         {
             if(arr[i]>max)
             {
-                max=arr[i];
+                max=i;
             }
         }
         return max;
